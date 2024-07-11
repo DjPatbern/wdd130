@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
-    --primary-color: #155765; /* Adjusted for contrast */
-    --secondary-color: #A75A5A; /* Adjusted for contrast */
-    --accent1-color: #004A63; /* Adjusted for contrast */
+    --primary-color: #155765; 
+    --secondary-color: white; 
+    --accent1-color: #004A63; 
     --accent2-color: #F9B9B7; 
   
     --heading-font: "Poppins", sans-serif, serif;
     --paragraph-font: "Poppins", sans-serif, serif;
   
     --nav-background-color: #7CB5C6;
-    --nav-link-color: #4B3900; /* Adjusted for contrast */
+    --nav-link-color: #4B3900; 
     --nav-hover-link-color: #F9B9B7;
     --nav-hover-background-color: #61A0AF;
   }
@@ -126,7 +126,7 @@ figure img {
 
 figcaption {
     background-color: var(--primary-color);
-    color: #D4A59A; /* Adjusted for contrast */
+    color: var(--secondary-color); 
     font: italic smaller;
     padding: 3px;
     text-align: center;
